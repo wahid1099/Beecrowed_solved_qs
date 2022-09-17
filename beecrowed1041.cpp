@@ -16,7 +16,13 @@ if(a>0 && b>0){
 
 }else if(a<0 && b<0){
     cout<<"Q3"<<endl;
-}else{
+}
+else if(a==0 && b==0){
+    cout<<"Origem"<<endl;
+}
+else if(a == 0) cout << "Eixo Y" << endl;
+    else if(b == 0) cout << "Eixo X" << endl;
+else{
     cout<<"Q4"<<endl;
 }
  
